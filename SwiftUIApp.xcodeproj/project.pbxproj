@@ -11,6 +11,10 @@
 		849F64872740317300A568B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F64862740317300A568B4 /* ContentView.swift */; };
 		849F64892740317500A568B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849F64882740317500A568B4 /* Assets.xcassets */; };
 		849F648C2740317500A568B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849F648B2740317500A568B4 /* Preview Assets.xcassets */; };
+		84DB0B8D274111C90014045A /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB0B8C274111C90014045A /* CityView.swift */; };
+		84DB0B8F2741165B0014045A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB0B8E2741165B0014045A /* City.swift */; };
+		84DB0B912741172F0014045A /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB0B902741172F0014045A /* CityViewModel.swift */; };
+		84DB0B9327411B880014045A /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB0B9227411B880014045A /* CityList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		849F64862740317300A568B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		849F64882740317500A568B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849F648B2740317500A568B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84DB0B8C274111C90014045A /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		84DB0B8E2741165B0014045A /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		84DB0B902741172F0014045A /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		84DB0B9227411B880014045A /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				849F64862740317300A568B4 /* ContentView.swift */,
 				849F64882740317500A568B4 /* Assets.xcassets */,
 				849F648A2740317500A568B4 /* Preview Content */,
+				84DB0B8C274111C90014045A /* CityView.swift */,
+				84DB0B8E2741165B0014045A /* City.swift */,
+				84DB0B902741172F0014045A /* CityViewModel.swift */,
+				84DB0B9227411B880014045A /* CityList.swift */,
 			);
 			path = SwiftUIApp;
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				849F64872740317300A568B4 /* ContentView.swift in Sources */,
+				84DB0B912741172F0014045A /* CityViewModel.swift in Sources */,
+				84DB0B8D274111C90014045A /* CityView.swift in Sources */,
+				84DB0B8F2741165B0014045A /* City.swift in Sources */,
+				84DB0B9327411B880014045A /* CityList.swift in Sources */,
 				849F64852740317300A568B4 /* SwiftUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
