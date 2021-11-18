@@ -26,13 +26,12 @@ struct ContentView: View {
                         .padding(10)
                     TextField("Enter login", text: $login)
                         .textFieldStyle(.roundedBorder)
-                        .padding(.horizontal, 150.0)
+                        .frame(width: 200, alignment: .center)
                     Text("Password")
                         .padding(10)
                     TextField("Password", text: $password)
                         .textFieldStyle(.roundedBorder)
-                        .padding(.horizontal, 150.0)
-                    
+                        .frame(width: 200, alignment: .center)
                     HStack {
                         Button {
                             print("Click")
@@ -43,7 +42,7 @@ struct ContentView: View {
                                 Text("LogIn")
                             }
                         }
-                        .padding(10)
+                        .padding(20)
                         .buttonStyle(.bordered)
                         .tint(Color.green)
                         Button("Registration") {

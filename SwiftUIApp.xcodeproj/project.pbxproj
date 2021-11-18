@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843EEA6B274657C7008E4B86 /* CityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843EEA6A274657C7008E4B86 /* CityDetails.swift */; };
 		849F64852740317300A568B4 /* SwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F64842740317300A568B4 /* SwiftUIAppApp.swift */; };
 		849F64872740317300A568B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F64862740317300A568B4 /* ContentView.swift */; };
 		849F64892740317500A568B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849F64882740317500A568B4 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843EEA6A274657C7008E4B86 /* CityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetails.swift; sourceTree = "<group>"; };
 		849F64812740317300A568B4 /* SwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849F64842740317300A568B4 /* SwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppApp.swift; sourceTree = "<group>"; };
 		849F64862740317300A568B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				84DB0B8E2741165B0014045A /* City.swift */,
 				84DB0B902741172F0014045A /* CityViewModel.swift */,
 				84DB0B9227411B880014045A /* CityList.swift */,
+				843EEA6A274657C7008E4B86 /* CityDetails.swift */,
 			);
 			path = SwiftUIApp;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				849F64872740317300A568B4 /* ContentView.swift in Sources */,
 				84DB0B912741172F0014045A /* CityViewModel.swift in Sources */,
 				84DB0B8D274111C90014045A /* CityView.swift in Sources */,
+				843EEA6B274657C7008E4B86 /* CityDetails.swift in Sources */,
 				84DB0B8F2741165B0014045A /* City.swift in Sources */,
 				84DB0B9327411B880014045A /* CityList.swift in Sources */,
 				849F64852740317300A568B4 /* SwiftUIAppApp.swift in Sources */,

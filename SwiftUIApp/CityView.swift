@@ -40,6 +40,6 @@ struct CityView: View {
 
 struct CityView_Previews: PreviewProvider {
     static var previews: some View {
-        CityView(city: City(countryName: "France", cityName: "Paris", dateOfTravel: "21 january 2018", imageCityName: "France_Paris"))
+        CityView(city: City(countryName: "France", cityName: "Paris", cityDetail: "Detail", dateOfTravel: "21 january 2018", imageCityName: "France_Paris"))
     }
 }
